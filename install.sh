@@ -1,10 +1,10 @@
 #!/bin/bash
 
 #install on debian based distros
-sudo apt-get install zsh zsh-syntax-highlighting zsh-autosuggestions autojump
+sudo apt-get install zsh zsh-syntax-highlighting zsh-autosuggestions autojump terminator
 
 #install on arch based distros
-sudo pacman -S zsh zsh-syntax-highlighting zsh-autosuggestions
+sudo pacman -S zsh zsh-syntax-highlighting zsh-autosuggestions terminator
 pamac install autojump
 
 mv zshrc ~/.zshrc
@@ -19,10 +19,10 @@ wget https://github.com/romkatv/powerlevel10k-media/raw/master/MesloLGS%20NF%20B
 
 mkdir ~/.local/share/fonts
 
-mv MesloLGS NF Bold Italic.ttf ~/.local/share/fonts/
-mv MesloLGS NF Bold.ttf ~/.local/share/fonts/
-mv MesloLGS NF Italic.ttf ~/.local/share/fonts/
-mv MesloLGS NF Regular.ttf ~/.local/share/fonts/
+mv MesloLGS\ NF\ Bold Italic.ttf ~/.local/share/fonts/
+mv MesloLGS\ NF\ Bold.ttf ~/.local/share/fonts/
+mv MesloLGS\ NF\ Italic.ttf ~/.local/share/fonts/
+mv MesloLGS\ NF\ Regular.ttf ~/.local/share/fonts/
 
 fc-cache -f -v
 
