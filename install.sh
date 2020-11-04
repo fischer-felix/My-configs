@@ -19,7 +19,7 @@ wget https://github.com/romkatv/powerlevel10k-media/raw/master/MesloLGS%20NF%20B
 
 mkdir ~/.local/share/fonts
 
-mv MesloLGS\ NF\ Bold Italic.ttf ~/.local/share/fonts/
+mv MesloLGS\ NF\ Bold\ Italic.ttf ~/.local/share/fonts/
 mv MesloLGS\ NF\ Bold.ttf ~/.local/share/fonts/
 mv MesloLGS\ NF\ Italic.ttf ~/.local/share/fonts/
 mv MesloLGS\ NF\ Regular.ttf ~/.local/share/fonts/
